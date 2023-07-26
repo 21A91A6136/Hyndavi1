@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact</title>
+	<style>
+		#navlist
+		{
+			margin-top: 40px;
+			margin-right: 50px;
+			float: left;	
+		}
+	</style>
+</head>
+<body>
+	<div style="background: powderblue; width: 1500px; height: 100px;">
+			<div style="background: powderblue; width: 750px; height: 100px; float: left;"><img src="image/studentlogo.jpg" width="200px" height="100px">
+
+			</div>
+
+				<div style="background: powderblue; width: 750px; height: 100px; float: right;">
+					<div id="navlist">
+						<a href="home.html">Home</a>
+						<a href="aboutus.html">About Us</a>
+						<a href="contact.html">Contact</a>
+			</div>
+				</div>
+
+	<div style="background: white; width: 1500px; height: 850px;">
+		<form>
+  				<fieldset>
+  					<legend>Personal Info:</legend>
+  					<label for="fname">First name:</label><br>
+  					<input type="text" id="fname" name="fname"><br>
+  					<label for="lname">Last name:</label><br>
+  					<input type="text" id="lname" name="lname"><br>
+  					<label for="Phno">Phone number:</label><br>
+  					<input type="tel" placeholder="Enter your phone number"><br>
+  					<label for="email">Email:</label><br>
+  					<input type="email" placeholder="Enter your Mail id"><br>
+  				</fieldset>
+  				<fieldset>
+  					<legend>Education:</legend>
+  					<label for="Qualification">Qualification:</label><br>
+  					<input type="text" name="Qualification"><br>
+  					<label for="CGPA">CGPA:</label>
+  					<input type="text" name="CGPA"><br>
+  					<label for="Credits">Credits:</label>
+  					<input type="text" name="Credits">
+  				</fieldset><br>
+  				<label for="frontend">fav_language:</label><br>
+  				<input type="radio" id="html" name="fav_language" value="HTML">
+  				<label for="html">HTML</label><br>
+  				<input type="radio" id="css" name="Fav_Language" value="CSS">
+  				<label for="css">CSS</label><br>
+  				<input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  				<label for="javascript">JavaScript</label><br>
+  				<label for="Hobbies">Hobbies</label><br>
+  				<input type="checkbox" id="Reading Books" name="Reading Books">
+  				<label for="Reading Books">Reading Books</label><br>
+  				<input type="checkbox" id="Games" name="Games">
+  				<label for="Games">Games</label><br>
+  				<input type="checkbox" id="Music" name="Music">
+  				<label for="Music">Music</label><br>
+  				<input type="checkbox" id="Dance" name="Dance">
+  				<label for="Dance">Dance</label><br>
+  				<label for="Languages">Languages</label><br>
+				<select id="Languages" name="Languages" size="4" multiple>
+  					<option value="C">C</option>
+  					<option value="C++">C++</option>
+  					<option value="Python">Python</option>
+  					<option value="Java">Java</option>
+				</select>
+				<br>
+				<label for="Address">Address</label><br>
+				<textarea rows="5" cols="30"></textarea><br><br>
+				<input type="Reset" value="Reset">
+  				<input type="submit" value="Submit" onclick="alert('Saved Successfully')">
+			</form>
+
+	</div>
+
+	<div style="background: powderblue; width: 1500px; height: 100px;">
+			<h3 align="center" id="home">Aditya Engineering College c 2023-All Rights Reserved</h3>
+		</div>
+</body>
+</html>
