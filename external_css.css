@@ -1,0 +1,66 @@
+/*.External
+{
+	border: 2px solid black;
+	color: firebrick;
+	text-decoration: underline;
+}
+div
+{
+	background-color: darkmagenta;
+	width: 100px;
+	height: 100px;
+}
+*
+{
+	font-family: monospace;
+	font-stretch: semi-expanded;
+}*/
+/*Attribute*/
+
+/*input[type="number"]{
+	color: red;
+}
+input[type="password"]{
+	color: yellow;
+}*/
+/*a[href]
+{
+	background-color: yellow;
+}*/
+/*input[type="text"]{
+	color: blue;
+}
+a:link
+{
+	background-color: blue;
+}*/
+/*a:hover
+{
+	background-color: black;
+}*/
+/*a:visited
+{
+	background-color: palegreen;
+}*/
+/*a:present
+{
+	color: darkgrey;
+}*/
+/*div:active
+{
+	color: darkgrey;
+}*/
+body
+{
+	background-image: url("pic2.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.hello
+{
+	width: 350px;
+	height: 350px;
+	background-image: url("download.jpeg");
+	text-align: center;
+	font-size: 30px;
+}
